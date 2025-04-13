@@ -1,0 +1,43 @@
+.main-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-layout header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-layout header div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-layout header div h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.main-layout header div p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.main-layout footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.main-layout footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
