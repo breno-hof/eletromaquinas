@@ -5,9 +5,20 @@
     width: 100%;
 }
 
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
 .error-page h1 {
-    font-size: 2rem;
+    font-size: 8rem;
     font-weight: 600;
+    color: var(--primary-color);
+    margin: 0;
 }
 
 .error-page h2 {
@@ -17,9 +28,19 @@
 
 .error-page p {
     font-size: 1.2rem;
+    color: var(--tertiary-color);
 }
 
 .error-page button {
-    padding-inline: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
     cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.error-page button:hover {
+    background-color: var(--quinary-color);
 }

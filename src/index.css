@@ -11,6 +11,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --primary-color: #E53E3E;
+  --secondary-color: #2563EB;
+  --tertiary-color: #4A5568;
+  --quaternary-color: #EDF2F7;
+  --quinary-color: #C53030;
 }
 
 body {
@@ -26,9 +32,9 @@ button {
   cursor: pointer;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #1A202C;
+    background-color: #FFFFFF;
   }
 }

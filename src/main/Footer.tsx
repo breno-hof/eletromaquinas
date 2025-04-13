@@ -19,19 +19,19 @@ export const Footer = () => {
     return (
         <footer>
             <div>
-                <button onClick={toHome}>
+                <button className="footer-icon" onClick={toHome}>
                     <Home />
                 </button>
                 <span>Inicio</span>
             </div>
             <div>
-                <button onClick={toShoppingCart}>
+                <button className="footer-icon" onClick={toShoppingCart}>
                     <ShoppingCart />
                 </button>
                 <span>Carrinho</span>
             </div>
             <div>
-                <button onClick={toAccount}>
+                <button className="footer-icon" onClick={toAccount}>
                     <User />
                 </button>
                 <span>Conta</span>

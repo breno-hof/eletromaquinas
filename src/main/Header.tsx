@@ -17,7 +17,7 @@ export const Header = () => {
     return (
         <header>
             <div>
-                <Zap />
+                <Zap className="header-icon" />
                 <h1>Eletromáquinas</h1>
             </div>
             <div>

@@ -1,52 +1,34 @@
+import { Hero } from './hero/Hero'
 import './LandingPage.css'
+import { Products } from './products/Products'
+import { Product } from '../types'
 
-const products = [
+const products: Product[] = [
     {
         id: 1,
         name: 'Produto 1',
         description: 'Descrição do produto 1',
-        image: '/',
+        image: '1.png',
     },
     {
         id: 2,
         name: 'Produto 2',
         description: 'Descrição do produto 2',
-        image: '/',
+        image: '2.png',
     },
     {
         id: 3,
         name: 'Produto 3',
         description: 'Descrição do produto 3',
-        image: '/',
+        image: '3.png',
     },
 ]
 
 export const LandingPage = () => {
     return (
         <div className="landing-page">
-            <section className="hero-section">
-                <img src="/" alt="" />
-                <div className="hero-container">
-                    <h1>Subheading</h1>
-                    <p>Texto de exemplo de descrição breve</p>
-                    <button>Ver oferta</button>
-                </div>
-            </section>
-            <section className="products-section">
-                <h1>Produtos em destaque</h1>
-                <div className="products-container">
-                    {products.map(product => {
-                        return (
-                            <div key={product.id}>
-                                <img src={product.image} alt="" />
-                                <h1>{product.name}</h1>
-                                <p>{product.description}</p>
-                                <button>Comprar</button>
-                            </div>
-                        )
-                    })}
-                </div>
-            </section>
+            <Hero />
+            <Products products={products}/>
         </div>
     )
 }
