@@ -37,4 +37,8 @@ button {
     color: #1A202C;
     background-color: #FFFFFF;
   }
+
+  input {
+    background-color: #FFFFFF;
+  }
 }

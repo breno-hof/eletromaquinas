@@ -24,21 +24,26 @@
 .product-card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem;
     border-radius: 0.5rem;
     border: 2px solid var(--quaternary-color);
+    width: 20rem;
 }
 
 .product-card > h1 {
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0;
+    align-self: flex-start;
 }
 
 .product-card > p {
     font-size: 1rem;
     font-weight: 400;
     color: var(--tertiary-color);
+    align-self: flex-start;
 }
 
 .product-card > button {
@@ -47,6 +52,7 @@
     color: var(--quaternary-color);
     padding: 0.5rem 2rem;
     align-self: center;
+    justify-self: flex-end;
     border-radius: 0.5rem;
     font-weight: 600;
     font-size: 1.2rem;

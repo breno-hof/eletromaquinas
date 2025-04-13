@@ -6,20 +6,20 @@ import { Product } from '../types'
 const products: Product[] = [
     {
         id: 1,
-        name: 'Produto 1',
-        description: 'Descrição do produto 1',
+        name: 'Receptor digital de TV',
+        description: 'Aparelho digital para recepção de sinais de televisão',
         image: '1.png',
     },
     {
         id: 2,
-        name: 'Produto 2',
-        description: 'Descrição do produto 2',
+        name: 'Motor de Portão',
+        description: 'Motor eletrico para portão',
         image: '2.png',
     },
     {
         id: 3,
-        name: 'Produto 3',
-        description: 'Descrição do produto 3',
+        name: 'Camera de Segurança',
+        description: 'Camera de segurança para monitoramento de áreas',
         image: '3.png',
     },
 ]

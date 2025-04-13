@@ -24,11 +24,13 @@
 .error-page h2 {
     font-size: 1.5rem;
     font-weight: 500;
+    margin: 0;
 }
 
 .error-page p {
     font-size: 1.2rem;
     color: var(--tertiary-color);
+    margin: 0;
 }
 
 .error-page button {
@@ -39,6 +41,7 @@
     cursor: pointer;
     font-weight: 600;
     font-size: 1.2rem;
+    margin-top: 2rem;
 }
 
 .error-page button:hover {
